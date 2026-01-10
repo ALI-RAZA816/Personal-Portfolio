@@ -2,6 +2,7 @@
 import './App.css'
 import Header from './Component/Header'
 import HeroSection from './Component/HeroSection'
+import Service from './Component/Service'
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
     <>
     <Header/>
     <HeroSection/>
+    <Service/>
     </>
   )
 }
