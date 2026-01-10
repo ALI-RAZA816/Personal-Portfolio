@@ -1,11 +1,13 @@
 header{
+    /* height: 70px; */
     width: 100vw;
 }
 
 
 .wrapper{
+    /* border: 1px solid red; */
     display: flex;
-    height: 65px;
+    height: 100px;
     max-width: 1400px;
     width: 100%;
     margin: 0 auto;
@@ -31,9 +33,14 @@ header{
 }
 
 .links ul li a{
-    text-decoration: none;
     font-size: 20px;
     color: #959595;
+    transition: color .20s ease;
+    text-decoration: none;
+}
+
+.links ul li a:hover{
+    color: #FA6E00;
 }
 
 header button{

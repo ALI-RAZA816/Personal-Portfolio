@@ -42,7 +42,9 @@ export default function HeroSection() {
                 </div>
             </div>
             <div className={style.rightBox}>
-                <img src="/images/hero-img.png" alt="" />
+                <div className={style.img}>
+                    <img src="/images/hero-img.png" alt="" />
+                </div>
             </div>
         </div>
     </div>
