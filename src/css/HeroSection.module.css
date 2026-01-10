@@ -1,6 +1,7 @@
 
 .wrapper{
-    margin: 0 auto;
+    margin: 90px auto !important;
+    /* margin-top: 180px !important; */
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -10,9 +11,9 @@
 }
 
 .leftBox{
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* gap: 50px; */
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -41,7 +42,7 @@
 .intro h2{
     font-size: 60px;
     font-weight: bold;
-    margin-top:1rem;
+    margin:20px 0;
     text-transform: capitalize;
     color: transparent;
     background: linear-gradient( #984300 0%, #FD6F00 46%,  #CA5900 100%);
@@ -53,6 +54,8 @@
 .socialLinks ul{
     display: flex;
     gap:15px;
+    margin-top: 10px;
+    margin-bottom: 69px;
     list-style-type: none;
 }
 
@@ -60,6 +63,13 @@
     display: block;
     color: #575757;
 }
+
+.socialLinks ul li a:hover,
+.socialLinks ul li:hover{
+    color: #eeeeee;
+    border-color: #eeeeee;
+}
+
 .socialLinks ul li{
     height: 40px;
     width: 40px;
@@ -101,6 +111,7 @@
 }
 
 .stats{
+    margin-top: 76px;
     padding: 1.2rem 0;
     display: flex;
     align-items: center;
