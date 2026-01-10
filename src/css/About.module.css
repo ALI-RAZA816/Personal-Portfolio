@@ -74,3 +74,17 @@
     color: #fff;
     background-color: #FD6F00;
 }
+
+
+.skillStat{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.circle1{
+    height: 100px;
+    width: 100px;
+    background: #444 linear-gradient(to left,transparent 50%, red 0);
+    border-radius: 50%;
+}

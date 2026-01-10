@@ -15,6 +15,33 @@ export default function About() {
                         <button><LuDownload /><span>Download CV</span></button>
                     </div>
                 </div>
+                <div className={style.skillStat}>
+                    <div className={style.box1}>
+                        <div className={style.circle1}></div>
+                        <span>100%</span>
+                        <span>HTML</span>
+                    </div>
+                    <div className={style.box1}>
+                        <div className={style.circle2}></div>
+                        <span>100%</span>
+                        <span>HTML</span>
+                    </div>
+                    <div className={style.box1}>
+                        <div className={style.circle3}></div>
+                        <span>100%</span>
+                        <span>HTML</span>
+                    </div>
+                    <div className={style.box1}>
+                        <div className={style.circle4}></div>
+                        <span>100%</span>
+                        <span>HTML</span>
+                    </div>
+                    <div className={style.box1}>
+                        <div className={style.circle5}></div>
+                        <span>100%</span>
+                        <span>HTML</span>
+                    </div>
+                </div>
             </div>
         </div>
     )
