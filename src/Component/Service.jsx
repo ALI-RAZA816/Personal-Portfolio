@@ -13,34 +13,34 @@ export default function Service() {
             <p>Transforming ideas into exceptional digital experiences that drive growth.</p>
             <div className={style.servicesGrid}>
                 <div>
-                    <FaCode />
+                    <FaCode style={{color:'#FD6F00',fontSize:"50px"}} />
                     <h2>Web Development</h2>
-                    <p>Lorem ipsum dolor sit amet . Imperdiet Lorem ipsum dolor sit amet consectetur</p>
+                    <p>Building fast, scalable web applications with modern frameworks like React.js</p>
                 </div>
                 <div>
-                    <FaMobile />
+                    <FaMobile style={{color:'#FD6F00',fontSize:"50px"}} />
                     <h2>Responsive Design</h2>
-                    <p>Lorem ipsum dolor sit amet . Imperdiet Lorem ipsum dolor sit amet consectetur</p>
+                    <p>Mobile-first designs that adapt seamlessly to any screen size</p>
                 </div>
                 <div>
-                    <BsGraphUpArrow />
+                    <BsGraphUpArrow style={{color:'#FD6F00',fontSize:"50px"}} />
                     <h2>Web Optimization</h2>
-                    <p>Lorem ipsum dolor sit amet . Imperdiet Lorem ipsum dolor sit amet consectetur</p>
+                    <p>Boosting speed, performance, and search engine visibility</p>
                 </div>
                 <div>
-                    <GrGroup />
+                    <GrGroup style={{color:'#FD6F00',fontSize:"50px"}} />
                     <h2>UI/UX Integration</h2>
-                    <p>Lorem ipsum dolor sit amet . Imperdiet Lorem ipsum dolor sit amet consectetur</p>
+                    <p>Creating intuitive interfaces that users love to interact with</p>
                 </div>
                 <div>
-                    <FaCubes />
+                    <FaCubes style={{color:'#FD6F00',fontSize:"50px"}} />
                     <h2>Web Maintenance</h2>
-                    <p>Lorem ipsum dolor sit amet . Imperdiet Lorem ipsum dolor sit amet consectetur</p>
+                    <p>Keeping your website secure, updated, and running 24/7</p>
                 </div>
                 <div>
-                    <FaDiagramSuccessor />
+                    <FaDiagramSuccessor style={{color:'#FD6F00',fontSize:"50px"}} />
                     <h2>Pixel Perfect</h2>
-                    <p>Lorem ipsum dolor sit amet . Imperdiet Lorem ipsum dolor sit amet consectetur</p>
+                    <p>Pixel-perfect implementation that matches designs exactly</p>
                 </div>
             </div>
         </div>      

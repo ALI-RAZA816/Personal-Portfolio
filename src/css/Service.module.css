@@ -4,6 +4,7 @@
     flex-direction: column;
     max-width: 1400px;
     margin: 0 auto;
+    padding: 2rem 0;
 }
 
 .wrapper > h1,
@@ -27,10 +28,24 @@
 .servicesGrid{
     display: grid;
     gap: 30px;
+    margin: 40px 0;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
 .servicesGrid div {
     text-align: center;
+    border-radius: 5px;
+    padding: 3rem;
     background-color: #7070700c;
+}
+.servicesGrid div h2 {
+    color: #FD6F00;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+
+.servicesGrid div p{
+    color: #575757;
+    font-size: 20px;
 }
