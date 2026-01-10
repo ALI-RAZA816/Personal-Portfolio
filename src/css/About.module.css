@@ -26,9 +26,10 @@
 }
 
 .aboutContent{
-    gap: 60px;
+    gap: 80px;
+    margin: 3rem 0;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
 }
 
@@ -47,3 +48,29 @@
     filter: grayscale();
 }
 
+.rightBox{
+    margin-top: 2rem;
+}
+
+.rightBox p {
+    color: #959595;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.rightBox button{
+    height:48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top:2rem;
+    width:220px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #FD6F00;
+}
