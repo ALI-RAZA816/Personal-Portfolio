@@ -8,7 +8,7 @@ export default function HeroSection() {
   return (
     <div className={style.heroSection}>
         <div className={style.wrapper}>
-            <div className="leftBox">
+            <div className={style.leftBox}>
                 <div className={style.intro}>
                     <span>Hi I am</span>
                     <span>Ali Raza Mujahid</span>
@@ -22,18 +22,18 @@ export default function HeroSection() {
                         <li><a href=""><VscGithubAlt style={{marginTop:".3rem",fontSize:"1.2rem"}} /></a></li>
                     </ul>
                 </div>
-                <div className="btns">
+                <div className={style.btns}>
                     <button>Hire Me</button>
                     <button>Download CV</button>
                 </div>
-                <div className="stats">
+                <div className={style.stats}>
                     <div>
                         <span>1+</span>
                         <span>Experience</span>
                     </div>
                     <div>
                         <span>20+</span>
-                        <span>Projects</span>
+                        <span>Projects done</span>
                     </div>
                     <div>
                         <span>1+</span>
@@ -41,7 +41,7 @@ export default function HeroSection() {
                     </div>
                 </div>
             </div>
-            <div className="rightBox">
+            <div className={style.rightBox}>
                 <img src="/images/hero-img.png" alt="" />
             </div>
         </div>

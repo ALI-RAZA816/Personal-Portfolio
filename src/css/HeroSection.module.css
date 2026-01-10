@@ -9,6 +9,16 @@
     color:#fff;
 }
 
+.leftBox{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url('/public/images/Vector.png');
+}
+
 .intro{
     display: flex;
     flex-direction: column;
@@ -31,7 +41,7 @@
 .intro h2{
     font-size: 60px;
     font-weight: bold;
-    margin: 1.3rem 0;
+    margin-top:1rem;
     text-transform: capitalize;
     color: transparent;
     background: linear-gradient( #984300 0%, #FD6F00 46%,  #CA5900 100%);
@@ -59,4 +69,70 @@
     border-radius: 50%;
     cursor: pointer;
     border: 1px solid #575757; 
+}
+
+.btns {
+    display: flex;
+    gap: 25px;
+}
+
+.btns button:first-child{
+    height: 48px;
+    width: 156px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #FD6F00;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.btns button:last-child{
+    height: 48px;
+    width: 200px;
+    border-radius: 5px;
+    outline: none;
+    color: #fff;
+    font-size: 20px;
+    background: none;
+    cursor: pointer;
+    border: 1px solid #fff;
+}
+
+.stats{
+    padding: 1.2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #dfdfdf13;
+    border-radius: 5px;
+}
+
+.stats div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-right: 1px solid #fff;
+    flex-direction: column;
+    padding: 0 1rem;
+}
+.stats div:last-child{
+    border: none !important;
+}
+
+.stats div span:first-child{
+    font-size: 24px;
+    font-weight: bold;
+    color: #FD6F00;
+    display: inline-block;
+    margin-bottom: .6rem;
+}
+
+
+.stats div span:last-child{
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    text-wrap: nowrap;
 }
