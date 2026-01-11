@@ -77,14 +77,58 @@
 
 
 .skillStat{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.circle1{
-    height: 100px;
-    width: 100px;
-    background: #444 linear-gradient(to left,transparent 50%, red 0);
+.circle{
+    height: 130px;
+    width: 130px;
+    display: flex;
+    margin-bottom: 1rem;
+    justify-content: center;
+    align-items: center;
     border-radius: 50%;
+    position: relative;
+    background: conic-gradient( #f87714 20%, #444 0deg);
+}
+
+.circle1{
+    background: conic-gradient( #f87714 100%, #444 0deg);
+}
+
+.circle3{
+    background: conic-gradient( #f87714 80%, #444 0deg);
+}
+
+.circle2{
+    background: conic-gradient( #f87714 85%, #444 0deg);
+}
+.circle4{
+    background: conic-gradient( #f87714 90%, #444 0deg);
+}
+.circle5{
+    background: conic-gradient( #f87714 75%, #444 0deg);
+}
+
+.circle > span{
+    display: block;
+    height: 110px;
+    width:110px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 110px;
+    color:  #f87714;
+    font-size:20px;
+    font-weight: bold;
+    background-color: #121212;   
+}
+
+.box > span{
+    color: #fff;
+    text-transform: uppercase;
 }
