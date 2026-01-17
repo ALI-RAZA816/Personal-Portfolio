@@ -1,5 +1,5 @@
 
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import './App.css'
 import About from './Component/About'
 import Contact from './Component/Contact'
@@ -12,9 +12,11 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 
 function App() {
+
   useEffect(()=>{
     Aos.init();
   },[]);
+  
   return (
     <>
     <Header/>

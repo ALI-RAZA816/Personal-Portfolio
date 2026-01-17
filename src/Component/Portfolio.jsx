@@ -7,7 +7,8 @@ export default function Portfolio() {
                 <h1>Portfolio</h1>
                 <p>A curated showcase of innovative projects where clean code meets creative design.</p>
                 <div className={style.projectsCollection}>
-                    <div className={style.cards}>
+                    <div className={style.cards} data-aos="zoom-in" data-aos-easing="linear"
+     data-aos-duration="450">
                         <div style={{position:'relative'}} className={style.img}>
                             <img src="/images/Rectangle 21.png" alt="" />
                         </div>
@@ -17,7 +18,8 @@ export default function Portfolio() {
                         </div>
                         <h1><span>Forever</span><span>e-commerce</span></h1>
                     </div>
-                    <div className={style.cards}>
+                    <div className={style.cards} data-aos="zoom-in" data-aos-easing="linear"
+     data-aos-duration="450">
                         <div style={{position:'relative'}} className={style.img}>
                             <img src="/images/Rectangle 21.png" alt="" />
                         </div>
@@ -27,7 +29,8 @@ export default function Portfolio() {
                         </div>
                         <h1><span>Forever</span><span>e-commerce</span></h1>
                     </div>
-                    <div className={style.cards}>
+                    <div className={style.cards} data-aos="zoom-in" data-aos-easing="linear"
+     data-aos-duration="450">
                         <div style={{position:'relative'}} className={style.img}>
                             <img src="/images/Rectangle 21.png" alt="" />
                         </div>
@@ -37,7 +40,8 @@ export default function Portfolio() {
                         </div>
                         <h1><span>Forever</span><span>e-commerce</span></h1>
                     </div>
-                    <div className={style.cards}>
+                    <div className={style.cards} data-aos="zoom-in" data-aos-easing="linear"
+     data-aos-duration="450">
                         <div style={{position:'relative'}} className={style.img}>
                             <img src="/images/Rectangle 21.png" alt="" />
                         </div>
@@ -47,7 +51,8 @@ export default function Portfolio() {
                         </div>
                         <h1><span>Forever</span><span>e-commerce</span></h1>
                     </div>
-                    <div className={style.cards}>
+                    <div className={style.cards} data-aos="zoom-in" data-aos-easing="linear"
+     data-aos-duration="450">
                         <div style={{position:'relative'}} className={style.img}>
                             <img src="/images/Rectangle 21.png" alt="" />
                         </div>
@@ -57,7 +62,8 @@ export default function Portfolio() {
                         </div>
                         <h1><span>Forever</span><span>e-commerce</span></h1>
                     </div>
-                    <div className={style.cards}>
+                    <div className={style.cards} data-aos="zoom-in" data-aos-easing="linear"
+     data-aos-duration="450">
                         <div style={{position:'relative'}} className={style.img}>
                             <img src="/images/Rectangle 21.png" alt="" />
                         </div>

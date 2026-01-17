@@ -1,6 +1,9 @@
+import { useContext } from 'react';
 import style from '../css/About.module.css';
 import { LuDownload } from "react-icons/lu";
+
 export default function About() {
+
     return (
         <div className={style.aboutSection}>
             <div className={style.wrapper}>
@@ -17,7 +20,7 @@ export default function About() {
                 </div>
                 <div className={style.skillStat}>
                     <div style={{textAlign:"center"}} className={`${style.box} ${style.box1} `}>
-                        <div className={`${style.circle} ${style.circle1}`}>
+                        <div className={`${style.circle} ${style.circle1} `}>
                             <span>100%</span>
                         </div>
                         <span>HTML</span>

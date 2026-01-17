@@ -86,7 +86,8 @@
     align-items: center;
     border-radius: 50%;
     position: relative;
-    background: conic-gradient( #f87714 20%, #444 0deg);
+    transition: .20s ease;
+    background: conic-gradient(#444 0deg);
 }
 
 .circle1{
