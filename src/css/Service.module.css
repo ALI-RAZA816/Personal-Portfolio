@@ -4,7 +4,7 @@
     flex-direction: column;
     max-width: 1400px;
     margin: 0 auto;
-    padding: 2rem 0;
+    padding: 2rem 1rem;
 }
 
 .wrapper > h1,
@@ -30,6 +30,17 @@
     gap: 30px;
     margin: 40px 0;
     grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media screen and (max-width:992px) {
+    .servicesGrid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width:764px) {
+    .servicesGrid{
+        grid-template-columns: 1fr;
+    }
 }
 
 .servicesGrid div {

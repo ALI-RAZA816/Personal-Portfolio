@@ -10,9 +10,9 @@ export default function Header({barHandler, menu, crossHandler}) {
                 <div className={style.logo}>
                     <h1>Raza</h1>
                 </div>
-                <div className={`${style.links} ${menu == true && style.show}`}>
+                <div className={`${style.links} ${menu == true ? style.show : undefined}`}>
                     <FaXmark onClick={crossHandler} className={style.crossIcon} />
-                    <ul className={menu == true && style.openMenu}>
+                    <ul className={menu == true ? style.openMenu : undefined}>
                         <li><a onClick={crossHandler} href="#home">Home</a></li>
                         <li><a onClick={crossHandler} href="#services">Services</a></li>
                         <li><a onClick={crossHandler} href="#about">About me</a></li>

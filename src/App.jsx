@@ -26,11 +26,11 @@ function App() {
     <>
     <Header barHandler = {barHandler} menu = {menu} crossHandler = {crossHandler} />
     <HeroSection/>
-    {/* <Service/> */}
-    {/* <About/> */}
-    {/* <Portfolio/> */}
-    {/* <Contact/> */}
-    {/* <Footer/> */}
+    <Service/>
+    <About/>
+    <Portfolio/>
+    <Contact/>
+    <Footer/>
     </>
   )
 }

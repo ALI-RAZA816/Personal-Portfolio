@@ -1,15 +1,16 @@
-
-.wrapper{
+.wrapper {
     width: 100%;
-    color:#fff;
+    color: #fff;
     display: flex;
-    gap: 100px;
+    gap: 50px;
+    /* align-items: center; */
     max-width: 1400px;
     /* justify-content: space-between; */
     margin: 90px auto !important;
 }
 
-.leftBox{
+.leftBox {
+    padding-left: 1rem;
     width: 50%;
     background-repeat: no-repeat;
     background-size: contain;
@@ -17,12 +18,12 @@
     background-image: url('/images/Vector.png');
 }
 
-.intro{
+.intro {
     display: flex;
     flex-direction: column;
 }
 
-.intro span:first-child{
+.intro span:first-child {
     color: #707070;
     font-size: 24px;
     font-weight: 550;
@@ -30,52 +31,52 @@
     display: inline-block;
 }
 
-.intro span:nth-of-type(2){
+.intro span:nth-of-type(2) {
     font-size: 28px;
     color: #959595;
     font-weight: 750;
 }
 
-.intro h2{
+.intro h2 {
     font-size: 60px;
     font-weight: bold;
-    margin:20px 0;
+    margin: 20px 0;
     text-transform: capitalize;
     color: transparent;
-    background: linear-gradient( #984300 0%, #FD6F00 46%,  #CA5900 100%);
+    background: linear-gradient(#984300 0%, #FD6F00 46%, #CA5900 100%);
     background-clip: text;
     -webkit-background-clip: text;
 
 }
 
-.socialLinks ul{
+.socialLinks ul {
     display: flex;
-    gap:15px;
+    gap: 15px;
     margin-top: 10px;
     margin-bottom: 69px;
     list-style-type: none;
 }
 
-.socialLinks ul li a{
+.socialLinks ul li a {
     display: block;
     color: #575757;
 }
 
 .socialLinks ul li a:hover,
-.socialLinks ul li:hover{
+.socialLinks ul li:hover {
     color: #eeeeee;
     border-color: #eeeeee;
 }
 
-.socialLinks ul li{
+.socialLinks ul li {
     height: 40px;
     width: 40px;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
     cursor: pointer;
-    border: 1px solid #575757; 
+    border: 1px solid #575757;
 }
 
 .btns {
@@ -83,7 +84,7 @@
     gap: 25px;
 }
 
-.btns button:first-child{
+.btns button:first-child {
     height: 48px;
     width: 156px;
     border-radius: 5px;
@@ -95,7 +96,7 @@
     font-size: 20px;
 }
 
-.btns button:last-child{
+.btns button:last-child {
     height: 48px;
     width: 200px;
     border-radius: 5px;
@@ -107,7 +108,7 @@
     border: 1px solid #fff;
 }
 
-.stats{
+.stats {
     margin-top: 76px;
     padding: 1.2rem 0;
     display: flex;
@@ -117,7 +118,7 @@
     border-radius: 5px;
 }
 
-.stats div{
+.stats div {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -125,11 +126,12 @@
     flex-direction: column;
     padding: 0 1rem;
 }
-.stats div:last-child{
+
+.stats div:last-child {
     border: none !important;
 }
 
-.stats div span:first-child{
+.stats div span:first-child {
     font-size: 24px;
     font-weight: bold;
     color: #FD6F00;
@@ -137,27 +139,50 @@
     margin-bottom: .6rem;
 }
 
-.stats > div span{
+.stats>div span {
     text-wrap: nowrap;
 }
 
-.stats div span:last-child{
+.stats div span:last-child {
     color: #fff;
     font-weight: bold;
     font-size: 20px;
 }
 
-.rightBox{
-    width:50%;
+.rightBox {
+    padding-right: 1rem;
+    width: 50%;
     overflow: hidden;
     display: flex;
     justify-content: end;
 }
 
-.rightBox img{
-    height: 580px;
+.rightBox img {
+    /* height: 580px; */
+    width: 450px;
     filter: grayscale();
     object-fit: contain;
+    margin-top: 0;
 }
 
 
+
+
+@media screen and (max-width:918px) {
+    .rightBox {
+        display: none;
+    }
+
+    .leftBox {
+        padding-right: 1rem;
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width:520px) {
+
+    .stats div span {
+        font-size: 15px !important;
+    }
+
+}

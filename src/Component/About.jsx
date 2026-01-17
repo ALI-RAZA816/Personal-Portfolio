@@ -5,7 +5,7 @@ import { LuDownload } from "react-icons/lu";
 export default function About() {
 
     return (
-        <div className={style.aboutSection} id='about'>
+        <div style={{overflow:'hidden'}} className={style.aboutSection} id='about'>
             <div className={style.wrapper}>
                 <h1>About Me</h1>
                 <p>A web developer using modern technologies to create solutions that drive growth.</p>
@@ -19,31 +19,36 @@ export default function About() {
                     </div>
                 </div>
                 <div className={style.skillStat}>
-                    <div style={{textAlign:"center"}} className={`${style.box} ${style.box1} `}>
+                    <div style={{textAlign:"center"}} className={`${style.box} ${style.box1} `} data-aos="fade-up" data-aos-easing="linear"
+     data-aos-duration="450">
                         <div className={`${style.circle} ${style.circle1} `}>
                             <span>100%</span>
                         </div>
                         <span>HTML</span>
                     </div>
-                    <div style={{textAlign:"center"}} className={`${style.box} ${style.box3} `}>
+                    <div style={{textAlign:"center"}} className={`${style.box} ${style.box3} `} data-aos="fade-up" data-aos-easing="linear"
+     data-aos-duration="450">
                         <div className={`${style.circle} ${style.circle3}`}>
                             <span>80%</span>
                         </div>
                         <span>Javascript</span>
                     </div>
-                     <div style={{textAlign:"center"}} className={`${style.box} ${style.box2} `}>
+                     <div style={{textAlign:"center"}} className={`${style.box} ${style.box2} `} data-aos="fade-up" data-aos-easing="linear"
+     data-aos-duration="450">
                         <div className={`${style.circle} ${style.circle2}`}>
                             <span>85%</span>
                         </div>
                         <span>CSS</span>
                     </div>
-                    <div style={{textAlign:"center"}} className={`${style.box} ${style.box4} `}>
+                    <div style={{textAlign:"center"}} className={`${style.box} ${style.box4} `} data-aos="fade-up" data-aos-easing="linear"
+     data-aos-duration="450">
                         <div className={`${style.circle} ${style.circle4}`}>
                             <span>90%</span>
                         </div>
                         <span>Bootstrap</span>
                     </div>
-                    <div style={{textAlign:"center"}} className={`${style.box} ${style.box5} `}>
+                    <div style={{textAlign:"center"}} className={`${style.box} ${style.box5} `} data-aos="fade-up"data-aos-easing="linear"
+     data-aos-duration="450" >
                         <div className={`${style.circle} ${style.circle5}`}>
                             <span>75%</span>
                         </div>

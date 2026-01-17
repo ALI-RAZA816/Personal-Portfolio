@@ -6,7 +6,7 @@ import style from '../css/HeroSection.module.css';
 
 export default function HeroSection() {
   return (
-    <div className={style.heroSection}>
+    <div style={{overflow:'hidden'}} className={style.heroSection}>
         <div className={style.wrapper}>
             <div className={style.leftBox} data-aos="fade-right"  data-aos-easing="linear" data-aos-duration="500">
                 <div className={style.intro}>

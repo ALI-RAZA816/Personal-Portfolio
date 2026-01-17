@@ -7,7 +7,7 @@ import { FaDiagramSuccessor } from "react-icons/fa6";
 
 export default function Service() {
   return (
-    <div className={style.serviceSection} id='services'>
+    <div style={{overflow:'hidden'}} className={style.serviceSection} id='services'>
         <div className={style.wrapper}>
             <h1>Services</h1>
             <p>Transforming ideas into exceptional digital experiences that drive growth.</p>

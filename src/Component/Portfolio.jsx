@@ -2,7 +2,7 @@ import style from '../css/Portfolio.module.css';
 
 export default function Portfolio() {
     return (
-        <div className={style.portfolio} id='portfolio'>
+        <div style={{overflow:'hidden'}} className={style.portfolio} id='portfolio'>
             <div className={style.wrapper}>
                 <h1>Portfolio</h1>
                 <p>A curated showcase of innovative projects where clean code meets creative design.</p>
