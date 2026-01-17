@@ -8,7 +8,7 @@ export default function HeroSection() {
   return (
     <div className={style.heroSection}>
         <div className={style.wrapper}>
-            <div className={style.leftBox}>
+            <div className={style.leftBox} data-aos="fade-right"  data-aos-easing="linear" data-aos-duration="500">
                 <div className={style.intro}>
                     <span>Hi I am</span>
                     <span>Ali Raza Mujahid</span>
@@ -16,10 +16,10 @@ export default function HeroSection() {
                 </div>
                 <div className={style.socialLinks}>
                     <ul>
-                        <li><a href=""><FaInstagram style={{marginTop:".3rem",fontSize:"1.2rem"}} /></a></li>
-                        <li><a href=""><ImLinkedin2 style={{fontSize:"1.2rem"}} /></a></li>
-                        <li><a href=""><FaTiktok style={{marginTop:".3rem",fontSize:"1.2rem"}} /></a></li>
-                        <li><a href=""><VscGithubAlt style={{marginTop:".3rem",fontSize:"1.2rem"}} /></a></li>
+                        <li><a href="https://www.instagram.com/alira.za2911?igsh=cnpzNmEyZjA4cnY4"><FaInstagram style={{marginTop:".3rem",fontSize:"1.2rem"}} /></a></li>
+                        <li><a href="https://www.linkedin.com/in/ali-raza-mujahid-532a5630b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><ImLinkedin2 style={{fontSize:"1.2rem"}} /></a></li>
+                        <li><a href="https://www.tiktok.com/@alirazamujahid43?_r=1&_t=ZS-938aP1tRLjF"><FaTiktok style={{marginTop:".3rem",fontSize:"1.2rem"}} /></a></li>
+                        <li><a href="https://github.com/ALI-RAZA816"><VscGithubAlt style={{marginTop:".3rem",fontSize:"1.2rem"}} /></a></li>
                     </ul>
                 </div>
                 <div className={style.btns}>
