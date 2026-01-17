@@ -1,26 +1,25 @@
-header{
-    /* height: 70px; */
+header {
     width: 100vw;
 }
 
-
-.wrapper{
-    /* border: 1px solid red; */
+.wrapper {
     display: flex;
     height: 100px;
     max-width: 1400px;
     width: 100%;
     margin: 0 auto;
     align-items: center;
+    position: relative;
     justify-content: space-between;
 }
 
-.logo h1{
+.logo h1 {
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 30px;
+    margin-left: .5rem;
     color: transparent;
-    background:linear-gradient(#FA6E00,  #E60026 ) ;
+    background: linear-gradient(#FA6E00, #E60026);
     background-clip: text;
     -webkit-background-clip: text;
 }
@@ -32,19 +31,19 @@ header{
     list-style-type: none;
 }
 
-.links ul li a{
+.links ul li a {
     font-size: 20px;
     color: #959595;
     transition: color .20s ease;
     text-decoration: none;
 }
 
-.links ul li a:hover{
+.links ul li a:hover {
     color: #FA6E00;
 }
 
-header button{
-    height:45px;
+header button {
+    height: 45px;
     width: 140px;
     color: #fff;
     border-radius: 8px;
@@ -52,8 +51,85 @@ header button{
     border: none;
     font-size: 15px;
     cursor: pointer;
-    background-color:#FA6E00;
+    background-color: #FA6E00;
 }
 
+.menuIcon,
+.crossIcon {
+    color: #fff;
+    font-size: 2rem;
+    margin: 0 1rem;
+    cursor: pointer;
+    display: none;
+}
 
+.crossIcon {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
 
+@media screen and (max-width:992px) {
+
+    .links {
+        top: 0;
+        z-index: 99;
+        height: 0;
+        opacity: 0;
+        visibility: hidden;
+        padding: 0 1rem;
+        transition: .30s ease;
+        position: absolute;
+        width: 100% !important;
+        background-color: #363636 !important;
+    }
+
+    .show {
+        opacity: 1;
+        visibility: visible;
+        height: 100vh;
+    }
+
+    .links ul {
+        padding: 1rem;
+        border-radius: 5px;
+        margin-top: 100px;
+        height: 0;
+        opacity: 0;
+        overflow: hidden;
+        transition: 1s ease;
+        display: block !important;
+        background-color: #181818 !important;
+    }
+
+    .openMenu {
+        opacity: 1 !important;
+        height: 190px !important;
+    }
+
+    .links ul li {
+        margin-bottom: 1rem;
+    }
+
+    .links ul li:last-child {
+        margin-bottom: 0 !important;
+    }
+
+    .links ul li a {
+        font-size: 16px;
+    }
+
+    .menuIcon,
+    .crossIcon {
+        display: block;
+    }
+}
+
+@media screen and (max-width:764px) {
+    header button {
+        height: 40px;
+        width: 120px;
+    }
+}

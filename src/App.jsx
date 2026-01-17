@@ -13,19 +13,24 @@ import 'aos/dist/aos.css';
 
 function App() {
 
+  const [menu, setMenu] = useState(false);
+
+  const barHandler = () => setMenu(true);
+  const crossHandler = () => setMenu(false);
+
   useEffect(()=>{
     Aos.init();
   },[]);
   
   return (
     <>
-    <Header/>
+    <Header barHandler = {barHandler} menu = {menu} crossHandler = {crossHandler} />
     <HeroSection/>
-    <Service/>
-    <About/>
-    <Portfolio/>
-    <Contact/>
-    <Footer/>
+    {/* <Service/> */}
+    {/* <About/> */}
+    {/* <Portfolio/> */}
+    {/* <Contact/> */}
+    {/* <Footer/> */}
     </>
   )
 }
