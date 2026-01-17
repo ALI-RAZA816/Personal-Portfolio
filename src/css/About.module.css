@@ -26,25 +26,17 @@
 }
 
 .aboutContent{
-    gap: 80px;
+    gap: 100px;
     margin: 3rem 0;
     display: flex;
     /* align-items: center; */
     justify-content: center;
 }
 
-.leftBox{
-    width: 350px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-top-left-radius: 500px;
-    border-top-right-radius: 500px;
-    position:relative;
-    background-color: #7070701c;
-}
 
 .leftBox img {
+    height: 550px;
+    object-fit: contain;
     filter: grayscale();
 }
 
