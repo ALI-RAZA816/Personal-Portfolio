@@ -3,6 +3,9 @@ import { FaInstagram } from "react-icons/fa6";
 import { ImLinkedin2 } from "react-icons/im";
 import { FaTiktok } from "react-icons/fa6";
 import { VscGithubAlt } from "react-icons/vsc";
+import { MdOutlineEmail } from "react-icons/md";
+import { LuPhone } from "react-icons/lu";
+
 
 export default function Footer() {
     return (
@@ -28,10 +31,11 @@ export default function Footer() {
                         <li><a href=""><VscGithubAlt style={{ marginTop: ".3rem", fontSize: "1.2rem" }} /></a></li>
                     </ul>
                 </div>
-                <div className="contact">
-                    <p>alirazamujahid102@gmail.com</p>
-                    <p>+923007994674</p>
+                <div className={style.contact}>
+                    <p><span><MdOutlineEmail style={{fontSize:'1.3rem',marginRight:'1rem'}}/></span>alirazamujahid102@gmail.com</p>
+                    <p><span><LuPhone style={{fontSize:'1.3rem',marginRight:'1rem'}}/></span>+923007994674</p>
                 </div>
+                <p>Develop by ALI RAZA MUJAHID React Developer</p>
             </div>
         </div>
     )
