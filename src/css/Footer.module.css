@@ -1,0 +1,70 @@
+.footerSection{
+    min-height: 426px;
+    background: #5757572a;
+}
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    max-width: 1400px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    color: transparent;
+    background:linear-gradient(#FA6E00,  #E60026 ) ;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.links ul {
+    gap: 60px;
+    display: inline-flex;
+    list-style-type: none;
+}
+
+.links ul li a{
+    font-size: 20px;
+    color: #959595;
+    transition: color .20s ease;
+    text-decoration: none;
+}
+
+.links ul li a:hover{
+    color: #FA6E00;
+}
+
+.socialLinks ul{
+    display: flex;
+    gap:15px;
+    margin-top: 10px;
+    margin-bottom: 69px;
+    list-style-type: none;
+}
+
+.socialLinks ul li a{
+    display: block;
+    color: #575757;
+}
+
+.socialLinks ul li a:hover,
+.socialLinks ul li:hover{
+    color: #eeeeee;
+    border-color: #eeeeee;
+}
+
+.socialLinks ul li{
+    height: 40px;
+    width: 40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 1px solid #575757; 
+}
