@@ -1,6 +1,7 @@
 
 import './App.css'
 import About from './Component/About'
+import Contact from './Component/Contact'
 import Header from './Component/Header'
 import HeroSection from './Component/HeroSection'
 import Portfolio from './Component/Portfolio'
@@ -15,6 +16,7 @@ function App() {
     <Service/>
     <About/>
     <Portfolio/>
+    <Contact/>
     </>
   )
 }
