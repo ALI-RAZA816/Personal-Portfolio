@@ -5,7 +5,7 @@ import { LuDownload } from "react-icons/lu";
 export default function About() {
 
     return (
-        <div className={style.aboutSection}>
+        <div className={style.aboutSection} id='about'>
             <div className={style.wrapper}>
                 <h1>About Me</h1>
                 <p>A web developer using modern technologies to create solutions that drive growth.</p>
