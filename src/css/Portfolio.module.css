@@ -25,6 +25,31 @@
     margin: 1rem 0;
 }
 
+.filterBtn{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 1rem 0;
+}
+
+.filterBtn button{
+    height: 40px;
+    border-radius: 100px;
+    border:1px solid #C6C6C6;
+    background: none;
+    width: 120px;
+    cursor: pointer;
+    text-transform: uppercase;
+    outline: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+.filterActive{
+    background-color: #FD6F00 !important;
+    border: none !important;
+}
+
 .projectsCollection {
     display: grid;
     column-gap: 50px;

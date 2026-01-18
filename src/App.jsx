@@ -15,13 +15,20 @@ function App() {
 
   const [menu, setMenu] = useState(false);
   const [activeLink, setActiveLink] = useState('');
+  const [activefilter, setActivefilter] = useState('');
 
   const barHandler = () => setMenu(true);
   const crossHandler = (link) => {
     setMenu(false)
     setActiveLink(link);
   };
+
+  const filterActiveHandler = (filter) =>{
+    setActivefilter(filter);
+  }
+  
   useEffect(()=>{
+    setActivefilter("all");
     setActiveLink('home');
     Aos.init();
   },[]);
@@ -32,7 +39,7 @@ function App() {
     <HeroSection/>
     <Service/>
     <About/>
-    <Portfolio/>
+    <Portfolio filterActiveHandler = {filterActiveHandler} activefilter = {activefilter} />
     <Contact/>
     <Footer/>
     </>
