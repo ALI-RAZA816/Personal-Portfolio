@@ -1,5 +1,10 @@
 header {
     width: 100vw;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background-color: #121212;
 }
 
 .wrapper {
@@ -40,6 +45,10 @@ header {
 
 .links ul li a:hover {
     color: #FA6E00;
+}
+
+.active{
+    color: #FA6E00 !important;
 }
 
 header button {

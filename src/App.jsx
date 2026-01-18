@@ -14,17 +14,21 @@ import 'aos/dist/aos.css';
 function App() {
 
   const [menu, setMenu] = useState(false);
+  const [activeLink, setActiveLink] = useState('');
 
   const barHandler = () => setMenu(true);
-  const crossHandler = () => setMenu(false);
-
+  const crossHandler = (link) => {
+    setMenu(false)
+    setActiveLink(link);
+  };
   useEffect(()=>{
+    setActiveLink('home');
     Aos.init();
   },[]);
   
   return (
     <>
-    <Header barHandler = {barHandler} menu = {menu} crossHandler = {crossHandler} />
+    <Header barHandler = {barHandler} menu = {menu} crossHandler = {crossHandler} activeLink = {activeLink} />
     <HeroSection/>
     <Service/>
     <About/>

@@ -10,7 +10,7 @@ export default function Portfolio() {
                     <div className={style.cards} data-aos="zoom-in" data-aos-easing="linear"
      data-aos-duration="450">
                         <div style={{position:'relative'}} className={style.img}>
-                            <img src="/images/Rectangle 21.png" alt="" />
+                            <img src="/thumbnails/modern.png" alt="" />
                         </div>
                         <div className={style.btns}>
                             <button>Live Demo</button>
