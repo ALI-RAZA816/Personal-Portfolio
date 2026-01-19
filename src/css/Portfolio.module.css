@@ -59,68 +59,7 @@
 
 }
 
-.cards {
-    border-radius: 10px;
-    cursor: pointer;
-    border: 1px solid transparent;
-    overflow: hidden;
-    transition: border .20s ease;
-    background-color: #7070702c;
-}
 
-.cards:hover {
-    border-color: #fff;
-}
-
-.btns {
-    display: flex;
-    width: 100%;
-    margin: .5rem 0;
-    padding: 0 .3rem;
-    justify-content: space-between;
-}
-
-.btns button {
-    height: 40px;
-    width: 120px;
-    border: none;
-    outline: none;
-    color: #fff;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: bold;
-    font-size: 15px;
-    background-color: #FD6F00;
-}
-
-.btns button:last-child {
-    background: none !important;
-    border: 1px solid #fff;
-}
-
-.img img {
-    height: 300px;
-    width: 100%;
-    object-fit: cover;
-}
-
-.cards h1 {
-    padding: 1rem .5rem;
-    font-size: 15px;
-    font-weight: normal;
-    display: flex;
-    justify-content: space-between;
-}
-
-.cards h1 span:first-child {
-    color: #C6C6C6;
-    font-size: 20px;
-}
-
-.cards h1 span:last-child {
-    color: #959595;
-    font-size: 15px;
-}
 
 @media screen and (max-width:992px) {
     .projectsCollection {

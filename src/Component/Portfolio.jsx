@@ -1,6 +1,9 @@
 import style from '../css/Portfolio.module.css';
+import ProjectCard from './ProjectCard';
 
-export default function Portfolio({filterActiveHandler ,activefilter}) {
+export default function Portfolio({ filterActiveHandler, activefilter,projects }) {
+
+   
     return (
         <div style={{ overflow: 'hidden' }} className={style.portfolio} id='portfolio'>
             <div className={style.wrapper}>
@@ -13,72 +16,9 @@ export default function Portfolio({filterActiveHandler ,activefilter}) {
                     <button className={activefilter === "bootstrap" ? style.filterActive : undefined} onClick={() => filterActiveHandler("bootstrap")}>Bootstrap</button>
                 </div>
                 <div className={style.projectsCollection}>
-                    <div className={style.cards} data-aos="zoom-in" data-aos-easing="linear"
-                        data-aos-duration="450">
-                        <div style={{ position: 'relative' }} className={style.img}>
-                            <img src="/thumbnails/bootstrap portfolio.png" alt="" />
-                        </div>
-                        <div className={style.btns}>
-                            <button>Live Demo</button>
-                            <button>GitHub</button>
-                        </div>
-                        <h1><span>Forever</span><span>e-commerce</span></h1>
-                    </div>
-                    <div className={style.cards} data-aos="zoom-in" data-aos-easing="linear"
-                        data-aos-duration="450">
-                        <div style={{ position: 'relative' }} className={style.img}>
-                            <img src="/images/Rectangle 21.png" alt="" />
-                        </div>
-                        <div className={style.btns}>
-                            <button>Live Demo</button>
-                            <button>GitHub</button>
-                        </div>
-                        <h1><span>Forever</span><span>e-commerce</span></h1>
-                    </div>
-                    <div className={style.cards} data-aos="zoom-in" data-aos-easing="linear"
-                        data-aos-duration="450">
-                        <div style={{ position: 'relative' }} className={style.img}>
-                            <img src="/images/Rectangle 21.png" alt="" />
-                        </div>
-                        <div className={style.btns}>
-                            <button>Live Demo</button>
-                            <button>GitHub</button>
-                        </div>
-                        <h1><span>Forever</span><span>e-commerce</span></h1>
-                    </div>
-                    <div className={style.cards} data-aos="zoom-in" data-aos-easing="linear"
-                        data-aos-duration="450">
-                        <div style={{ position: 'relative' }} className={style.img}>
-                            <img src="/images/Rectangle 21.png" alt="" />
-                        </div>
-                        <div className={style.btns}>
-                            <button>Live Demo</button>
-                            <button>GitHub</button>
-                        </div>
-                        <h1><span>Forever</span><span>e-commerce</span></h1>
-                    </div>
-                    <div className={style.cards} data-aos="zoom-in" data-aos-easing="linear"
-                        data-aos-duration="450">
-                        <div style={{ position: 'relative' }} className={style.img}>
-                            <img src="/images/Rectangle 21.png" alt="" />
-                        </div>
-                        <div className={style.btns}>
-                            <button>Live Demo</button>
-                            <button>GitHub</button>
-                        </div>
-                        <h1><span>Forever</span><span>e-commerce</span></h1>
-                    </div>
-                    <div className={style.cards} data-aos="zoom-in" data-aos-easing="linear"
-                        data-aos-duration="450">
-                        <div style={{ position: 'relative' }} className={style.img}>
-                            <img src="/images/Rectangle 21.png" alt="" />
-                        </div>
-                        <div className={style.btns}>
-                            <button>Live Demo</button>
-                            <button>GitHub</button>
-                        </div>
-                        <h1><span>Forever</span><span>e-commerce</span></h1>
-                    </div>
+                    {projects.map(item => {
+                        return <ProjectCard key = {item.github} name = {item.name} category = {item.category} github = {item.github} livedemo = {item.livedemo} image = {item.image}/>
+                    })}
                 </div>
             </div>
         </div>

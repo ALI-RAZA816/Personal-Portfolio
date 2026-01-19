@@ -11,12 +11,10 @@ export default function Footer() {
     return (
         <div style={{ overflow: 'hidden' }} className={style.footerSection}>
             <div className={style.wrapper}>
-                <div className={style.logo} data-aos="fade-up" data-aos-easing="linear"
-                    data-aos-duration="450">
+                <div className={style.logo} data-aos="fade-up" data-aos-easing="linear">
                     <h1>Raza</h1>
                 </div>
-                <div className={style.links} data-aos="fade-up" data-aos-easing="linear"
-                    data-aos-duration="450">
+                <div className={style.links} data-aos="fade-up" data-aos-easing="linear">
                     <ul>
                         <li><a href="">Home</a></li>
                         <li><a href="">Services</a></li>
@@ -25,8 +23,7 @@ export default function Footer() {
                         <li><a href="">Contact me</a></li>
                     </ul>
                 </div>
-                <div className={style.socialLinks} data-aos="fade-up" data-aos-easing="linear"
-                    data-aos-duration="450">
+                <div className={style.socialLinks} data-aos="fade-up" data-aos-easing="linear">
                     <ul>
                         <li><a href="https://www.instagram.com/alira.za2911?igsh=cnpzNmEyZjA4cnY4"><FaInstagram style={{ marginTop: ".3rem", fontSize: "1.2rem" }} /></a></li>
                         <li><a href="https://www.linkedin.com/in/ali-raza-mujahid-532a5630b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><ImLinkedin2 style={{ fontSize: "1.2rem" }} /></a></li>
@@ -34,8 +31,7 @@ export default function Footer() {
                         <li><a href="https://github.com/ALI-RAZA816"><VscGithubAlt style={{ marginTop: ".3rem", fontSize: "1.2rem" }} /></a></li>
                     </ul>
                 </div>
-                <div className={style.contact} data-aos="fade-up" data-aos-easing="linear"
-                    data-aos-duration="450">
+                <div className={style.contact} data-aos="fade-up" data-aos-easing="linear">
                     <p><span><MdOutlineEmail style={{ fontSize: '1.3rem', marginRight: '1rem' }} /></span>alirazamujahid102@gmail.com</p>
                     <p><span><LuPhone style={{ fontSize: '1.3rem', marginRight: '1rem' }} /></span>+923007994674</p>
                 </div>

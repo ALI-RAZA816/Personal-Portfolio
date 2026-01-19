@@ -46,7 +46,7 @@ const projects = [
         category:"javascript",
         github:"https://github.com/ALI-RAZA816/JS-Mini-Projects/tree/main/Dictionary%20App",
         livedemo:"https://dictionary-qv4fk1s0d-ali-raza-mujahids-projects.vercel.app/",
-        image:"/thumbnails/javascript dicitonary.png"
+        image:"/thumbnails/javascript dicitonary app.png"
     },
     {
         name:"Expense Tracker",

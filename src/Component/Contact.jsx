@@ -3,8 +3,7 @@ import style from '../css/Contact.module.css';
 export default function Contact() {
     return (
         <div style={{overflow:'hidden'}} className={style.contactSection} id='contact'>
-            <div className={style.wrapper} data-aos="fade-up" data-aos-easing="linear"
-     data-aos-duration="450">
+            <div className={style.wrapper} data-aos="fade-up">
                 <h1>Contact me</h1>
                 <p>Cultivating Connections: Reach Out and Connect with Me</p>
                 <div className={style.form}>

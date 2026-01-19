@@ -8,7 +8,7 @@ export default function HeroSection() {
   return (
     <div id="home" style={{overflow:'hidden'}} className={style.heroSection}>
         <div className={style.wrapper}>
-            <div className={style.leftBox} data-aos="fade-right"  data-aos-easing="linear" data-aos-duration="500">
+            <div className={style.leftBox} data-aos="fade-right"  data-aos-easing="linear" data-aos-duration="500" data-aos-offset="0">
                 <div className={style.intro}>
                     <span>Hi I am</span>
                     <span>Ali Raza Mujahid</span>
