@@ -6,7 +6,7 @@ import style from '../css/HeroSection.module.css';
 
 export default function HeroSection() {
   return (
-    <div style={{overflow:'hidden'}} className={style.heroSection}>
+    <div id="home" style={{overflow:'hidden'}} className={style.heroSection}>
         <div className={style.wrapper}>
             <div className={style.leftBox} data-aos="fade-right"  data-aos-easing="linear" data-aos-duration="500" data-aos-offset="0">
                 <div className={style.intro}>
@@ -24,7 +24,7 @@ export default function HeroSection() {
                 </div>
                 <div className={style.btns}>
                     <button>Hire Me</button>
-                    <button>Download CV</button>
+                    <button><a href="/cv/resume.pdf" download>Download CV</a></button>
                 </div>
                 <div className={style.stats}>
                     <div>

@@ -1,4 +1,4 @@
-const projects = [
+export const projects = [
     {
         name:"Portfolio",
         category:"bootstrap",
@@ -32,7 +32,7 @@ const projects = [
         category:"javascript",
         github:"https://github.com/ALI-RAZA816/JS-Mini-Projects/tree/main/CountDown",
         livedemo:"https://countdowntimer-omega-five.vercel.app/",
-        image:"/thumbnails/javascript countdown.png"
+        image:"/thumbnails/javascript countdown.PNG"
     },
     {
         name:"Expense Tracker",

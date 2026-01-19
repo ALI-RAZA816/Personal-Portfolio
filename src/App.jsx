@@ -113,7 +113,6 @@ function App() {
 
   useEffect(() => {
     setActivefilter("all");
-    setActiveLink('home');
     Aos.init({
       duration: 1000, // Animation duration in milliseconds
       easing: 'ease-out-quad', // Easing function

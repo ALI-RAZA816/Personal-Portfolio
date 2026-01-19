@@ -101,11 +101,16 @@
     width: 200px;
     border-radius: 5px;
     outline: none;
-    color: #fff;
     font-size: 20px;
     background: none;
     cursor: pointer;
     border: 1px solid #fff;
+}
+
+.btns button:last-child a{
+    color: #fff;
+    text-decoration: none;
+
 }
 
 .stats {

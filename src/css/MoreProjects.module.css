@@ -1,0 +1,58 @@
+.wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.filterBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.filterBox h1{
+    color:#fff;
+}
+
+.filterBox select{
+    height: 40px;
+    width: 100%;
+    max-width: 180px;
+    border: 1px solid #fff;
+    outline: none;
+    color: #fff;
+    padding: 0 .5rem;
+    font-size: 15px;
+    background: none;
+    border-radius: 5px;
+}
+
+.filterBox select option{
+    background: #121212;
+}
+
+.projects h1{
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 2rem 0;
+}
+
+.projectGrid{
+    display: grid;
+    gap: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media screen and (max-width:992px) {
+    .projectGrid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width:764px) {
+    .projectGrid{
+        grid-template-columns:1fr;
+    }
+}

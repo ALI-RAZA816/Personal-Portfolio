@@ -68,6 +68,10 @@
     background-color: #FD6F00;
 }
 
+.rightBox a{
+    text-decoration: none;
+}
+
 
 .skillStat {
     width: 100%;
