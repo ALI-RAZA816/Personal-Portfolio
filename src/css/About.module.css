@@ -141,7 +141,7 @@
 
 @media screen and (max-width:992px) {
     .leftBox img {
-        height: 550px;
+        height: 460px;
         width: 250px;
         object-fit: contain;
         filter: grayscale();
