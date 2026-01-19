@@ -48,14 +48,16 @@
     justify-content: center;
     gap: 10px;
     margin: 1rem 0;
+    /* overflow-x: scroll; */
 }
+
 
 .filterBtn button{
     height: 40px;
+    min-width: 120px;
     border-radius: 100px;
     border:1px solid #C6C6C6;
     background: none;
-    width: 120px;
     cursor: pointer;
     text-transform: uppercase;
     outline: none;
