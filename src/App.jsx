@@ -10,7 +10,12 @@ import Portfolio from './Component/Portfolio'
 import Service from './Component/Service'
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-
+import MoreProjects from './Component/MoreProjects'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
 function App() {
 
   const portfolio = [
@@ -121,13 +126,22 @@ function App() {
 
   return (
     <>
-      <Header barHandler={barHandler} menu={menu} crossHandler={crossHandler} activeLink={activeLink} />
-      <HeroSection />
-      <Service />
-      <About />
-      <Portfolio filterActiveHandler={filterActiveHandler} activefilter={activefilter} projects={projects} />
-      <Contact />
-      <Footer />
+      <Router>
+        <Header barHandler={barHandler} menu={menu} crossHandler={crossHandler} activeLink={activeLink} />
+        <Switch>
+          <Route exact path="/">
+            <HeroSection />
+            <Service />
+            <About />
+            <Portfolio filterActiveHandler={filterActiveHandler} activefilter={activefilter} projects={projects} />
+            <Contact />
+          </Route>
+          <Route exact path="/details">
+            <MoreProjects />
+          </Route>
+        </Switch>
+        <Footer />
+      </Router>
     </>
   )
 }

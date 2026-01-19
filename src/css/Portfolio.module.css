@@ -25,6 +25,24 @@
     margin: 1rem 0;
 }
 
+.wrapper > button:last-child{
+    height: 40px;
+    width: 120px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background: #FD6F00;
+}
+
+.wrapper > button:last-child a{
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+}
+
 .filterBtn{
     display: flex;
     justify-content: center;
@@ -58,8 +76,6 @@
     grid-template-columns: 1fr 1fr 1fr;
 
 }
-
-
 
 @media screen and (max-width:992px) {
     .projectsCollection {

@@ -1,6 +1,8 @@
 import style from '../css/Portfolio.module.css';
 import ProjectCard from './ProjectCard';
-
+import {
+  Link
+} from "react-router-dom";
 export default function Portfolio({ filterActiveHandler, activefilter,projects }) {
 
    
@@ -20,6 +22,7 @@ export default function Portfolio({ filterActiveHandler, activefilter,projects }
                         return <ProjectCard key = {item.github} name = {item.name} category = {item.category} github = {item.github} livedemo = {item.livedemo} image = {item.image}/>
                     })}
                 </div>
+                <button><Link to="/details">View More</Link></button>
             </div>
         </div>
     )
