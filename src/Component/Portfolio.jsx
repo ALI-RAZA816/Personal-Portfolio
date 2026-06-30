@@ -3,8 +3,9 @@ import ProjectCard from './ProjectCard';
 import {
   Link
 } from "react-router-dom";
-export default function Portfolio({ filterActiveHandler, activefilter,projects }) {
+export default function Portfolio({ filterActiveHandler, activefilter, projects }) {
 
+    const project = projects.slice(0,6);
    
     return (
         <div style={{ overflow: 'hidden' }} className={style.portfolio} id='portfolio'>
@@ -18,7 +19,7 @@ export default function Portfolio({ filterActiveHandler, activefilter,projects }
                     <button className={activefilter === "bootstrap" ? style.filterActive : undefined} onClick={() => filterActiveHandler("bootstrap")}>Bootstrap</button>
                 </div>
                 <div className={style.projectsCollection}>
-                    {projects.map(item => {
+                    {project.map(item => {
                         return <ProjectCard key = {item.github} name = {item.name} category = {item.category} github = {item.github} livedemo = {item.livedemo} image = {item.image}/>
                     })}
                 </div>

@@ -20,6 +20,27 @@ function App() {
 
   const portfolio = [
     {
+      name: "eCommerce",
+      category: "react",
+      github: "https://github.com/ALI-RAZA816/E-Commerce-Website-React-.git",
+      livedemo: "https://forever-ecommerce-website-mocha.vercel.app/",
+      image: "/thumbnails/React Forever Image_thumbnail Jun 30, 2026, 02_43_07 AM.png"
+    },
+    {
+      name: "Expense Tracker",
+      category: "react",
+      github: "https://github.com/ALI-RAZA816/Expense-Tracker-Chart.git",
+      livedemo: "https://expense-tracker-chart.vercel.app/",
+      image: "/thumbnails/Expense Tracker Thumbnail_Image Jun 30, 2026, 02_53_57 AM.png"
+    },
+    {
+      name: "DevConnect",
+      category: "react",
+      github: "https://github.com/ALI-RAZA816/Job-Post-React.git",
+      livedemo: "https://job-post-react.vercel.app/",
+      image: "/thumbnails/DevConnect Thumbnail_Image Jun 30, 2026, 03_10_08 AM.png"
+    },
+    {
       name: "Portfolio",
       category: "bootstrap",
       github: "https://github.com/ALI-RAZA816/Bootstrap-Portfolio",
