@@ -1,15 +1,71 @@
-/* google fonts  */
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+/* ===== Fonts ===== */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
 
-*{
+/* ===== Design Tokens ===== */
+:root {
+  /* surfaces */
+  --bg-primary: #090b12;
+  --bg-elevated: #11141d;
+  --bg-elevated-2: #161a26;
+  --border-soft: rgba(255, 255, 255, 0.08);
+  --border-strong: rgba(255, 255, 255, 0.16);
+
+  /* text */
+  --text-primary: #f2f4f8;
+  --text-secondary: #9096a8;
+  --text-muted: #5b6072;
+
+  /* accent — indigo to cyan, a developer/console palette */
+  --accent-1: #7c5cfa;
+  --accent-2: #22d3ee;
+  --accent-gradient: linear-gradient(120deg, #7c5cfa 0%, #4f7cf7 45%, #22d3ee 100%);
+  --accent-gradient-soft: linear-gradient(120deg, rgba(124, 92, 250, 0.16), rgba(34, 211, 238, 0.16));
+  --accent-glow: rgba(124, 92, 250, 0.35);
+  --accent-mint: #3ddc97;
+
+  /* fonts */
+  --font-display: "Space Grotesk", "Inter", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
 
-body{
-  background-color: #121212;
-  overflow-x:hidden !important;
-  font-family: "Lato", sans-serif;
+body {
+  background-color: var(--bg-primary);
+  background-image:
+    radial-gradient(60rem 40rem at 85% -10%, rgba(124, 92, 250, 0.16), transparent 60%),
+    radial-gradient(50rem 35rem at -10% 20%, rgba(34, 211, 238, 0.10), transparent 55%);
+  background-attachment: fixed;
+  overflow-x: hidden !important;
+  font-family: var(--font-body);
+  color: var(--text-primary);
+}
+
+::selection {
+  background: var(--accent-1);
+  color: #fff;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--bg-elevated-2);
+  border-radius: 10px;
+  border: 2px solid var(--bg-primary);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-1);
 }

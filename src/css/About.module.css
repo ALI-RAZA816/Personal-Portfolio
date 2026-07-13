@@ -13,15 +13,16 @@
 }
 
 .wrapper>h1 {
+    font-family: var(--font-display);
     font-size: 40px;
-    color: #fff;
-    font-weight: bold;
+    color: var(--text-primary);
+    font-weight: 700;
 }
 
 .wrapper>p {
-    font-size: 20px;
-    color: #707070;
-    font-weight: 550;
+    font-size: 18px;
+    color: var(--text-muted);
+    font-weight: 500;
     margin: 1rem 0;
 }
 
@@ -29,7 +30,6 @@
     gap: 100px;
     margin: 3rem 0;
     display: flex;
-    /* align-items: center; */
     justify-content: center;
 }
 
@@ -39,6 +39,7 @@
     width: 350px;
     object-fit: contain;
     filter: grayscale();
+    border-radius: 14px;
 }
 
 .rightBox {
@@ -46,7 +47,7 @@
 }
 
 .rightBox p {
-    color: #959595;
+    color: var(--text-secondary);
     font-size: 18px;
     line-height: 30px;
 }
@@ -57,7 +58,9 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
-    border-radius: 5px;
+    border-radius: 8px;
+    font-family: var(--font-body);
+    font-weight: 600;
     font-size: 16px;
     cursor: pointer;
     margin-top: 2rem;
@@ -65,7 +68,14 @@
     border: none;
     outline: none;
     color: #fff;
-    background-color: #FD6F00;
+    background: var(--accent-gradient);
+    box-shadow: 0 10px 26px -10px var(--accent-glow);
+    transition: transform .2s ease, filter .2s ease;
+}
+
+.rightBox button:hover {
+    transform: translateY(-2px);
+    filter: brightness(1.08);
 }
 
 .rightBox a{
@@ -98,27 +108,27 @@
     border-radius: 50%;
     position: relative;
     transition: .20s ease;
-    background: conic-gradient(#444 0deg);
+    background: conic-gradient(var(--bg-elevated-2) 0deg);
 }
 
 .circle1 {
-    background: conic-gradient(#f87714 100%, #444 0deg);
+    background: conic-gradient(#7c5cfa 100%, var(--bg-elevated-2) 0deg);
 }
 
 .circle3 {
-    background: conic-gradient(#f87714 80%, #444 0deg);
+    background: conic-gradient(#7c5cfa 80%, var(--bg-elevated-2) 0deg);
 }
 
 .circle2 {
-    background: conic-gradient(#f87714 85%, #444 0deg);
+    background: conic-gradient(#7c5cfa 85%, var(--bg-elevated-2) 0deg);
 }
 
 .circle4 {
-    background: conic-gradient(#f87714 90%, #444 0deg);
+    background: conic-gradient(#7c5cfa 90%, var(--bg-elevated-2) 0deg);
 }
 
 .circle5 {
-    background: conic-gradient(#f87714 75%, #444 0deg);
+    background: conic-gradient(#7c5cfa 75%, var(--bg-elevated-2) 0deg);
 }
 
 .circle>span {
@@ -128,15 +138,19 @@
     border-radius: 50%;
     text-align: center;
     line-height: 110px;
-    color: #f87714;
+    color: var(--accent-2);
+    font-family: var(--font-display);
     font-size: 20px;
-    font-weight: bold;
-    background-color: #121212;
+    font-weight: 700;
+    background-color: var(--bg-primary);
 }
 
 .box>span {
-    color: #fff;
+    color: var(--text-primary);
     text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: .5px;
+    font-weight: 600;
 }
 
 @media screen and (max-width:992px) {

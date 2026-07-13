@@ -13,15 +13,16 @@
 }
 
 .wrapper > h1{
+    font-family: var(--font-display);
     font-size: 40px;
-    color: #fff;
-    font-weight: bold;
+    color: var(--text-primary);
+    font-weight: 700;
 }
 
 .wrapper > p{
-    font-size: 20px;
-    color: #707070;
-    font-weight: 550;
+    font-size: 18px;
+    color: var(--text-muted);
+    font-weight: 500;
     margin: 1rem 0;
 }
 
@@ -45,18 +46,29 @@
 
 .servicesGrid div {
     text-align: center;
-    border-radius: 5px;
-    padding: 3rem;
-    background-color: #7070700c;
+    border-radius: 12px;
+    padding: 3rem 2rem;
+    background-color: var(--bg-elevated);
+    border: 1px solid var(--border-soft);
+    transition: transform .25s ease, border-color .25s ease, box-shadow .25s ease;
 }
+
+.servicesGrid div:hover {
+    transform: translateY(-6px);
+    border-color: var(--accent-1);
+    box-shadow: 0 18px 40px -20px var(--accent-glow);
+}
+
 .servicesGrid div h2 {
-    color: #FD6F00;
-    font-size: 24px;
-    font-weight: bold;
+    font-family: var(--font-display);
+    color: var(--text-primary);
+    font-size: 22px;
+    font-weight: 700;
     margin: 1rem 0;
 }
 
 .servicesGrid div p{
-    color: #575757;
-    font-size: 20px;
+    color: var(--text-secondary);
+    font-size: 16px;
+    line-height: 1.6;
 }

@@ -1,6 +1,7 @@
 .footerSection{
-    min-height: 426px;
-    background: #5757572a;
+    min-height: 380px;
+    background: var(--bg-elevated);
+    border-top: 1px solid var(--border-soft);
 }
 
 .wrapper{
@@ -11,15 +12,16 @@
     align-items: center;
     gap: 50px;
     flex-direction: column;
-    padding: 2rem 1rem;
+    padding: 3rem 1rem 2rem;
 }
 
 .logo h1{
     text-transform: uppercase;
-    font-weight: bold;
-    font-size: 30px;
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 28px;
     color: transparent;
-    background:linear-gradient(#FA6E00,  #E60026 ) ;
+    background: var(--accent-gradient);
     background-clip: text;
     -webkit-background-clip: text;
 }
@@ -31,14 +33,16 @@
 }
 
 .links ul li a{
-    font-size: 20px;
-    color: #959595;
+    font-family: var(--font-body);
+    font-size: 17px;
+    font-weight: 500;
+    color: var(--text-secondary);
     transition: color .20s ease;
     text-decoration: none;
 }
 
 .links ul li a:hover{
-    color: #FA6E00;
+    color: var(--accent-2);
 }
 
 .socialLinks ul{
@@ -49,13 +53,14 @@
 
 .socialLinks ul li a{
     display: block;
-    color: #575757;
+    color: var(--text-muted);
+    transition: color .2s ease;
 }
 
 .socialLinks ul li a:hover,
 .socialLinks ul li:hover{
-    color: #eeeeee;
-    border-color: #eeeeee;
+    color: var(--text-primary);
+    border-color: var(--accent-1);
 }
 
 .socialLinks ul li{
@@ -66,14 +71,15 @@
     align-items: center;
     border-radius: 50%;
     cursor: pointer;
-    border: 1px solid #575757; 
+    border: 1px solid var(--border-strong);
+    transition: border-color .2s ease;
 }
 
 
 .contact{
     display: flex;
     gap: 50px;
-    color: #959595;
+    color: var(--text-secondary);
 }
 
 .contact p{
@@ -82,9 +88,12 @@
 }
 
 .wrapper > p{
-    color: #959595;
-    border-top: 1px solid ;
-    padding: 1rem 0;
+    color: var(--text-muted);
+    border-top: 1px solid var(--border-soft);
+    padding: 1.5rem 0 0;
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
 }
 
 @media screen and (max-width:764px) {
