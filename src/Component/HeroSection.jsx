@@ -24,20 +24,20 @@ export default function HeroSection() {
                 </div>
                 <div className={style.btns}>
                     <button>Hire Me</button>
-                    <button><a href="/cv/ali-raza-resume.pdf" download>Download CV</a></button>
+                    <button>Download CV</button>
                 </div>
                 <div className={style.stats}>
                     <div>
-                        <span>1+</span>
-                        <span>Experience</span>
+                        <span>3+</span>
+                        <span>Month Experience</span>
                     </div>
                     <div>
                         <span>20+</span>
-                        <span>Projects done</span>
+                        <span>Github Repos</span>
                     </div>
                     <div>
                         <span>1+</span>
-                        <span>Happy Clients</span>
+                        <span>Happy Client</span>
                     </div>
                 </div>
             </div>
