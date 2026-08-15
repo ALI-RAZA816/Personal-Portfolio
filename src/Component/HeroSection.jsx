@@ -28,7 +28,7 @@ export default function HeroSection() {
                 </div>
                 <div className={style.stats}>
                     <div>
-                        <span>3+</span>
+                        <span>1+</span>
                         <span>Month Experience</span>
                     </div>
                     <div>
@@ -36,7 +36,7 @@ export default function HeroSection() {
                         <span>Github Repos</span>
                     </div>
                     <div>
-                        <span>1+</span>
+                        <span>1</span>
                         <span>Happy Client</span>
                     </div>
                 </div>
