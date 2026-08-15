@@ -24,7 +24,7 @@ export default function HeroSection() {
                 </div>
                 <div className={style.btns}>
                     <button>Hire Me</button>
-                    <button>Download CV</button>
+                    <button style={{color:'#fff'}}>Download CV</button>
                 </div>
                 <div className={style.stats}>
                     <div>
