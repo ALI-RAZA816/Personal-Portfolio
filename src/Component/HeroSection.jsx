@@ -12,7 +12,7 @@ export default function HeroSection() {
                 <div className={style.intro}>
                     <span>Hi I am</span>
                     <span>Ali Raza Mujahid</span>
-                    <h2>React Developer</h2>
+                    <h2>Laravel Full Stack Developer</h2>
                 </div>
                 <div className={style.socialLinks}>
                     <ul>
@@ -24,7 +24,7 @@ export default function HeroSection() {
                 </div>
                 <div className={style.btns}>
                     <button>Hire Me</button>
-                    <button><a href="/cv/resume.pdf" download>Download CV</a></button>
+                    <button><a href="/cv/ali-raza-resume.pdf" download>Download CV</a></button>
                 </div>
                 <div className={style.stats}>
                     <div>
@@ -41,8 +41,8 @@ export default function HeroSection() {
                     </div>
                 </div>
             </div>
-            <div className={style.rightBox}>
-                <img src="/images/hero-img copy.png" alt="" />
+            <div className={style.rightBox} >
+                <img src="/images/about-img.png" alt="Ali Raza Mujahid - Laravel Full Stack Developer" style={{height:'500px',width:'500px',borderRadius:'100%'}} />
             </div>
         </div>
     </div>

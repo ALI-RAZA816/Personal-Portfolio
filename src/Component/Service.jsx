@@ -14,8 +14,8 @@ export default function Service() {
             <div className={style.servicesGrid}>
                 <div data-aos="zoom-in" data-aos-easing="linear">
                     <FaCode style={{color:'#7c9bfa',fontSize:"50px"}} />
-                    <h2>Web Development</h2>
-                    <p>Building fast, scalable web applications with modern frameworks like React.js</p>
+                    <h2>Full Stack Development</h2>
+                    <p>Building fast, scalable web applications with PHP, Laravel and React.js</p>
                 </div>
                 <div data-aos="zoom-in" data-aos-easing="linear">
                     <FaMobile style={{color:'#7c9bfa',fontSize:"50px"}} />
@@ -24,13 +24,13 @@ export default function Service() {
                 </div>
                 <div data-aos="zoom-in" data-aos-easing="linear">
                     <BsGraphUpArrow style={{color:'#7c9bfa',fontSize:"50px"}} />
-                    <h2>Web Optimization</h2>
-                    <p>Boosting speed, performance, and search engine visibility</p>
+                    <h2>API Development</h2>
+                    <p>Building secure and well-structured RESTful APIs with Laravel</p>
                 </div>
                 <div data-aos="zoom-in" data-aos-easing="linear">
                     <GrGroup style={{color:'#7c9bfa',fontSize:"50px"}} />
-                    <h2>UI/UX Integration</h2>
-                    <p>Creating intuitive interfaces that users love to interact with</p>
+                    <h2>Database Management</h2>
+                    <p>Designing efficient, reliable database structures for your application</p>
                 </div>
                 <div data-aos="zoom-in" data-aos-easing="linear">
                     <FaCubes style={{color:'#7c9bfa',fontSize:"50px"}} />

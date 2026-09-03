@@ -14,8 +14,8 @@ export default function About() {
                         <img src="/images/about-img.png" alt="" />
                     </div>
                     <div className={style.rightBox} data-aos="fade-left" data-aos-duration="500">
-                        <p>I am a skilled <b style={{ color: '#22d3ee', fontSize: '16px' }} >React Developer</b> with over 8 months experience in the industry. My passion lies in creatubg captivating website designs and implementing them through fronted development. I take pride in staying up-to-date with current design trends and leveraging my creativity to produce visually appealing and user-friendly websites. Throughout my career, I have developed a deep understanding of user experience and user interface principles. By putting myself in the shoes of the end-users, I strive to create intuitive and seamless browsing experience. I believe that a well-designed website should not only look visually appealing but also provide a smooth and enjouable interaction for visitors. When starting a new project, I thoroughly research and analyze the target audience and the client's specific requirements. This enables me to tailor my designs to meet their expectations and deliver a unique online presence that aligns with their brand indentity.</p>
-                        <a href="/cv/resume.pdf" download><button><LuDownload /><span>Download CV</span></button></a>
+                        <p>I am a skilled <b style={{ color: '#22d3ee', fontSize: '16px' }} >Laravel Full Stack Developer</b> with hands-on experience building complete web applications from front end to back end. My passion lies in designing clean user interfaces and backing them up with robust, secure, and scalable server-side logic using PHP and Laravel. I take pride in staying up-to-date with modern development practices and leveraging my skills across the full stack to deliver seamless, end-to-end solutions. Throughout my journey, I have developed a solid understanding of both front-end technologies like React, JavaScript, jQuery and Bootstrap, and back-end concepts like MVC architecture, RESTful APIs, and database management. By combining strong front-end design sense with reliable back-end engineering, I strive to build applications that are not only visually appealing but also fast, secure, and maintainable. When starting a new project, I thoroughly research and analyze the target audience and the client's specific requirements. This enables me to tailor my solutions to meet their expectations and deliver a unique, fully functional product that aligns with their business goals.</p>
+                        <a href="/cv/ali-raza-resume.pdf" download><button><LuDownload /><span>Download CV</span></button></a>
                     </div>
                 </div>
                 <div className={style.skillStat}>
@@ -29,28 +29,49 @@ export default function About() {
                     <div style={{ textAlign: "center" }} className={`${style.box} ${style.box3} `} data-aos="fade-up" data-aos-easing="linear"
                         data-aos-duration="450">
                         <div className={`${style.circle} ${style.circle3}`}>
-                            <span>80%</span>
-                        </div>
-                        <span>Javascript</span>
-                    </div>
-                    <div style={{ textAlign: "center" }} className={`${style.box} ${style.box2} `} data-aos="fade-up" data-aos-easing="linear"
-                        data-aos-duration="450">
-                        <div className={`${style.circle} ${style.circle2}`}>
                             <span>85%</span>
                         </div>
                         <span>CSS</span>
                     </div>
+                    <div style={{ textAlign: "center" }} className={`${style.box} ${style.box2} `} data-aos="fade-up" data-aos-easing="linear"
+                        data-aos-duration="450">
+                        <div className={`${style.circle} ${style.circle2}`}>
+                            <span>80%</span>
+                        </div>
+                        <span>Javascript</span>
+                    </div>
                     <div style={{ textAlign: "center" }} className={`${style.box} ${style.box4} `} data-aos="fade-up" data-aos-easing="linear"
                         data-aos-duration="450">
                         <div className={`${style.circle} ${style.circle4}`}>
-                            <span>90%</span>
+                            <span>75%</span>
                         </div>
-                        <span>Bootstrap</span>
+                        <span>jQuery</span>
                     </div>
                     <div style={{ textAlign: "center" }} className={`${style.box} ${style.box5} `} data-aos="fade-up" data-aos-easing="linear"
                         data-aos-duration="450" >
                         <div className={`${style.circle} ${style.circle5}`}>
-                            <span>75%</span>
+                            <span>85%</span>
+                        </div>
+                        <span>Bootstrap</span>
+                    </div>
+                    <div style={{ textAlign: "center" }} className={`${style.box} ${style.box1} `} data-aos="fade-up" data-aos-easing="linear"
+                        data-aos-duration="450">
+                        <div className={`${style.circle} ${style.circle1} `}>
+                            <span>90%</span>
+                        </div>
+                        <span>PHP</span>
+                    </div>
+                    <div style={{ textAlign: "center" }} className={`${style.box} ${style.box3} `} data-aos="fade-up" data-aos-easing="linear"
+                        data-aos-duration="450">
+                        <div className={`${style.circle} ${style.circle3}`}>
+                            <span>90%</span>
+                        </div>
+                        <span>Laravel</span>
+                    </div>
+                    <div style={{ textAlign: "center" }} className={`${style.box} ${style.box2} `} data-aos="fade-up" data-aos-easing="linear"
+                        data-aos-duration="450">
+                        <div className={`${style.circle} ${style.circle2}`}>
+                            <span>70%</span>
                         </div>
                         <span>React</span>
                     </div>

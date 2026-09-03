@@ -35,7 +35,7 @@ export default function Footer() {
                     <p><span><MdOutlineEmail style={{ fontSize: '1.3rem', marginRight: '1rem' }} /></span>alirazamujahid102@gmail.com</p>
                     <p><span><LuPhone style={{ fontSize: '1.3rem', marginRight: '1rem' }} /></span>+923007994674</p>
                 </div>
-                <p>Develop by ALI RAZA MUJAHID React Developer</p>
+                <p>Develop by ALI RAZA MUJAHID Laravel Full Stack Developer</p>
             </div>
         </div>
     )
