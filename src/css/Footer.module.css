@@ -1,0 +1,120 @@
+.footerSection{
+    min-height: 380px;
+    background: var(--bg-elevated);
+    border-top: 1px solid var(--border-soft);
+}
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    max-width: 1400px;
+    align-items: center;
+    gap: 50px;
+    flex-direction: column;
+    padding: 3rem 1rem 2rem;
+}
+
+.logo h1{
+    text-transform: uppercase;
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 28px;
+    color: transparent;
+    background: var(--accent-gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.links ul {
+    gap: 60px;
+    display: inline-flex;
+    list-style-type: none;
+}
+
+.links ul li a{
+    font-family: var(--font-body);
+    font-size: 17px;
+    font-weight: 500;
+    color: var(--text-secondary);
+    transition: color .20s ease;
+    text-decoration: none;
+}
+
+.links ul li a:hover{
+    color: var(--accent-2);
+}
+
+.socialLinks ul{
+    display: flex;
+    gap:15px;
+    list-style-type: none;
+}
+
+.socialLinks ul li a{
+    display: block;
+    color: var(--text-muted);
+    transition: color .2s ease;
+}
+
+.socialLinks ul li a:hover,
+.socialLinks ul li:hover{
+    color: var(--text-primary);
+    border-color: var(--accent-1);
+}
+
+.socialLinks ul li{
+    height: 40px;
+    width: 40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 1px solid var(--border-strong);
+    transition: border-color .2s ease;
+}
+
+
+.contact{
+    display: flex;
+    gap: 50px;
+    color: var(--text-secondary);
+}
+
+.contact p{
+    display: flex;
+    align-items: center;
+}
+
+.wrapper > p{
+    color: var(--text-muted);
+    border-top: 1px solid var(--border-soft);
+    padding: 1.5rem 0 0;
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+}
+
+@media screen and (max-width:764px) {
+
+    .wrapper{
+        align-items: start;    
+    }
+
+    .links ul {
+        display: block;
+    }
+
+    .links ul li{
+        margin-bottom: 1rem;
+    }
+    .links ul li a{
+        font-size: 15px;
+    }
+
+    .contact{
+        flex-direction: column;
+        gap: 5px;
+    }
+}

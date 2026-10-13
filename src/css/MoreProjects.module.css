@@ -1,0 +1,61 @@
+.wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.filterBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.filterBox h1{
+    font-family: var(--font-display);
+    color: var(--text-primary);
+}
+
+.filterBox select{
+    height: 42px;
+    width: 100%;
+    max-width: 180px;
+    border: 1px solid var(--border-strong);
+    outline: none;
+    color: var(--text-primary);
+    padding: 0 .6rem;
+    font-family: var(--font-body);
+    font-size: 15px;
+    background: var(--bg-elevated);
+    border-radius: 8px;
+}
+
+.filterBox select option{
+    background: var(--bg-elevated);
+}
+
+.projects h1{
+    font-family: var(--font-display);
+    text-align: center;
+    color: var(--text-primary);
+    text-transform: uppercase;
+    margin: 2rem 0;
+}
+
+.projectGrid{
+    display: grid;
+    gap: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media screen and (max-width:992px) {
+    .projectGrid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width:764px) {
+    .projectGrid{
+        grid-template-columns:1fr;
+    }
+}
