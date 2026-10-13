@@ -8,7 +8,10 @@ import Header from './Component/Header'
 import HeroSection from './Component/HeroSection'
 import Portfolio from './Component/Portfolio'
 import Service from './Component/Service'
+<<<<<<< HEAD
 import Skills from './Component/Skills'
+=======
+>>>>>>> 0fc8009fb7339efa5ff1795a11382bda0adfec23
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import MoreProjects from './Component/MoreProjects'
@@ -154,7 +157,10 @@ function App() {
             <HeroSection />
             <Service />
             <About />
+<<<<<<< HEAD
             <Skills />
+=======
+>>>>>>> 0fc8009fb7339efa5ff1795a11382bda0adfec23
             <Portfolio filterActiveHandler={filterActiveHandler} activefilter={activefilter} projects={projects} />
             <Contact />
           </Route>

@@ -18,6 +18,67 @@ export default function About() {
                         <a href="#" download><button><LuDownload /><span>Download CV</span></button></a>
                     </div>
                 </div>
+<<<<<<< HEAD
+=======
+                <div className={style.skillStat}>
+                    <div style={{ textAlign: "center" }} className={`${style.box} ${style.box1} `} data-aos="fade-up" data-aos-easing="linear"
+                        data-aos-duration="450">
+                        <div className={`${style.circle} ${style.circle1} `}>
+                            <span>100%</span>
+                        </div>
+                        <span>HTML</span>
+                    </div>
+                    <div style={{ textAlign: "center" }} className={`${style.box} ${style.box3} `} data-aos="fade-up" data-aos-easing="linear"
+                        data-aos-duration="450">
+                        <div className={`${style.circle} ${style.circle3}`}>
+                            <span>85%</span>
+                        </div>
+                        <span>CSS</span>
+                    </div>
+                    <div style={{ textAlign: "center" }} className={`${style.box} ${style.box2} `} data-aos="fade-up" data-aos-easing="linear"
+                        data-aos-duration="450">
+                        <div className={`${style.circle} ${style.circle2}`}>
+                            <span>80%</span>
+                        </div>
+                        <span>Javascript</span>
+                    </div>
+                    <div style={{ textAlign: "center" }} className={`${style.box} ${style.box4} `} data-aos="fade-up" data-aos-easing="linear"
+                        data-aos-duration="450">
+                        <div className={`${style.circle} ${style.circle4}`}>
+                            <span>75%</span>
+                        </div>
+                        <span>jQuery</span>
+                    </div>
+                    <div style={{ textAlign: "center" }} className={`${style.box} ${style.box5} `} data-aos="fade-up" data-aos-easing="linear"
+                        data-aos-duration="450" >
+                        <div className={`${style.circle} ${style.circle5}`}>
+                            <span>85%</span>
+                        </div>
+                        <span>Bootstrap</span>
+                    </div>
+                    <div style={{ textAlign: "center" }} className={`${style.box} ${style.box1} `} data-aos="fade-up" data-aos-easing="linear"
+                        data-aos-duration="450">
+                        <div className={`${style.circle} ${style.circle1} `}>
+                            <span>90%</span>
+                        </div>
+                        <span>PHP</span>
+                    </div>
+                    <div style={{ textAlign: "center" }} className={`${style.box} ${style.box3} `} data-aos="fade-up" data-aos-easing="linear"
+                        data-aos-duration="450">
+                        <div className={`${style.circle} ${style.circle3}`}>
+                            <span>90%</span>
+                        </div>
+                        <span>Laravel</span>
+                    </div>
+                    <div style={{ textAlign: "center" }} className={`${style.box} ${style.box2} `} data-aos="fade-up" data-aos-easing="linear"
+                        data-aos-duration="450">
+                        <div className={`${style.circle} ${style.circle2}`}>
+                            <span>70%</span>
+                        </div>
+                        <span>React</span>
+                    </div>
+                </div>
+>>>>>>> 0fc8009fb7339efa5ff1795a11382bda0adfec23
             </div>
         </div>
     )

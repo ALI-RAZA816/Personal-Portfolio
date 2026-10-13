@@ -18,7 +18,10 @@ export default function Header({barHandler, menu, crossHandler, activeLink}) {
                         <li><Link className={activeLink === "home" ? style.active : undefined}  onClick={() => crossHandler("home")} to="/">Home</Link></li>
                         <li><a className={activeLink === "services" ? style.active : undefined} onClick={() => crossHandler("services")} href="#services">Services</a></li>
                         <li><a className={activeLink === "about" ? style.active : undefined} onClick={() => crossHandler("about")} href="#about">About me</a></li>
+<<<<<<< HEAD
                         <li><a className={activeLink === "skills" ? style.active : undefined} onClick={() => crossHandler("skills")} href="#skills">Skills</a></li>
+=======
+>>>>>>> 0fc8009fb7339efa5ff1795a11382bda0adfec23
                         <li><a className={activeLink === "portfolio" ? style.active : undefined}  onClick={() => crossHandler("portfolio")} href="#portfolio">Portfolio</a></li>
                         <li><a className={activeLink === "contact" ? style.active : undefined}  onClick={() => crossHandler("contact")} href="#contact">Contact me</a></li>
                     </ul>
