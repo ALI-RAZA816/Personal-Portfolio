@@ -165,7 +165,7 @@ header button:hover {
     }
 
     .links ul li a {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .menuIcon,
@@ -183,7 +183,12 @@ header button:hover {
 
 @media screen and (max-width:764px) {
     header button {
-        height: 40px;
-        width: 120px;
+        display: none;
+    }
+}
+
+@media screen and (max-width:520px) {
+    .links ul li a {
+        font-size: 13px;
     }
 }

@@ -141,7 +141,7 @@
 }
 
 .stats {
-    margin-top: 70px;
+    margin-top: 20px;
     padding: 1.4rem 0;
     display: flex;
     align-items: center;
@@ -238,4 +238,13 @@
         font-size: 15px !important;
     }
 
+}
+
+.rightBox img.heroPhoto {
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: center 18%;
+    filter: none;
 }

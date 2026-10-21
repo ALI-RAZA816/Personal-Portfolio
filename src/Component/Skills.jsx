@@ -3,7 +3,7 @@ import { FaCss3Alt, FaBolt, FaServer, FaTasks, FaShieldAlt } from "react-icons/f
 import { VscVscode } from "react-icons/vsc";
 import {
   SiHtml5, SiJavascript, SiReact, SiJquery, SiBootstrap,
-  SiPhp, SiLaravel, SiMysql, SiGit, SiGithub, SiPostman,
+  SiPhp, SiLaravel, SiMysql, SiMongodb, SiGit, SiGithub, SiPostman,
 } from "react-icons/si";
 
 const skillGroups = [
@@ -29,6 +29,7 @@ const skillGroups = [
       { name: "Sanctum Auth", icon: FaShieldAlt, color: "#3ddc97" },
       { name: "Queues & Jobs", icon: FaTasks, color: "#7c9bfa" },
       { name: "MySQL", icon: SiMysql, color: "#4aa0d5" },
+      { name: "MongoDB", icon: SiMongodb, color: "#47a248" },
     ],
   },
   {
