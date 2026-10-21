@@ -1,4 +1,5 @@
 import style from '../css/Header.module.css';
+import Logo from './Logo';
 import { FaBars } from "react-icons/fa";
 import { FaXmark } from "react-icons/fa6";
 import {
@@ -10,7 +11,7 @@ export default function Header({barHandler, menu, crossHandler, activeLink}) {
         <header>
             <div className={style.wrapper}>
                 <div className={style.logo}>
-                    <h1>Raza</h1>
+                    <Logo />
                 </div>
                 <div className={`${style.links} ${menu == true ? style.show : undefined}`}>
                     <FaXmark onClick={crossHandler} className={style.crossIcon} />

@@ -1,0 +1,80 @@
+.logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    user-select: none;
+}
+
+.badge {
+    width: 42px;
+    height: 42px;
+    padding: 2px;
+    border-radius: 12px;
+    background: var(--accent-gradient);
+    box-shadow: 0 8px 22px -8px var(--accent-glow);
+    display: inline-flex;
+    flex-shrink: 0;
+}
+
+.badgeInner {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background: var(--bg-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.letters {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 17px;
+    letter-spacing: .5px;
+    line-height: 1;
+    color: transparent;
+    background: var(--accent-gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.word {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: .3px;
+    color: var(--text-primary);
+    white-space: nowrap;
+}
+
+.dev {
+    font-family: var(--font-mono);
+    font-weight: 500;
+    font-size: 15px;
+    color: var(--accent-2);
+    margin-left: 1px;
+}
+
+.lg .badge {
+    width: 48px;
+    height: 48px;
+}
+
+@media screen and (max-width: 520px) {
+    .badge {
+        width: 36px;
+        height: 36px;
+    }
+
+    .letters {
+        font-size: 14px;
+    }
+
+    .word {
+        font-size: 18px;
+    }
+
+    .dev {
+        font-size: 13px;
+    }
+}

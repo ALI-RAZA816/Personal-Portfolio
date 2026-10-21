@@ -1,4 +1,5 @@
 import style from '../css/Footer.module.css';
+import Logo from './Logo';
 import { FaInstagram } from "react-icons/fa6";
 import { ImLinkedin2 } from "react-icons/im";
 import { FaTiktok } from "react-icons/fa6";
@@ -12,7 +13,7 @@ export default function Footer() {
         <div style={{ overflow: 'hidden' }} className={style.footerSection}>
             <div className={style.wrapper}>
                 <div className={style.logo} data-aos="fade-up" data-aos-easing="linear">
-                    <h1>Raza</h1>
+                    <Logo size="lg" />
                 </div>
                 <div className={style.links} data-aos="fade-up" data-aos-easing="linear">
                     <ul>
