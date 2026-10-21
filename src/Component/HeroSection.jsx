@@ -16,10 +16,10 @@ export default function HeroSection() {
                 </div>
                 <div className={style.socialLinks}>
                     <ul>
-                        <li><a href="#"><FaInstagram style={{marginTop:".3rem",fontSize:"1.2rem"}} /></a></li>
-                        <li><a href="#"><ImLinkedin2 style={{fontSize:"1.2rem"}} /></a></li>
-                        <li><a href="#"><FaTiktok style={{marginTop:".3rem",fontSize:"1.2rem"}} /></a></li>
-                        <li><a href="#"><VscGithubAlt style={{marginTop:".3rem",fontSize:"1.2rem"}} /></a></li>
+                        <li><a href="https://www.instagram.com/introvert_devloper?utm_source=qr&srtk=MW41dW0zcjRjcGppNg%3D%3D" target="_blank"><FaInstagram style={{marginTop:".3rem",fontSize:"1.2rem"}} /></a></li>
+                        <li><a href="https://www.linkedin.com/in/ali-raza-mujahid-2162b7307" target='_blank'><ImLinkedin2 style={{fontSize:"1.2rem"}} /></a></li>
+                        <li><a href="https://www.tiktok.com/@alirazam897?_r=1&_t=ZS-9Aji8XERh25" target='_blank'><FaTiktok style={{marginTop:".3rem",fontSize:"1.2rem"}} /></a></li>
+                        <li><a href="https://github.com/ALI-RAZA816" target='_blank'><VscGithubAlt style={{marginTop:".3rem",fontSize:"1.2rem"}} /></a></li>
                     </ul>
                 </div>
                 <div className={style.btns}>
